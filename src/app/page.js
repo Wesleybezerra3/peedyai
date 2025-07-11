@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Header } from "@/components/Header";
 import CarroselLetter from "@/components/Carrosel";
 import HeroSection from "@/components/Hero";
+import { AboutUs } from "@/components/aboutUs";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Header/>
     <CarroselLetter />
     <HeroSection/>
+    <AboutUs/>
    </>
   );
 }
